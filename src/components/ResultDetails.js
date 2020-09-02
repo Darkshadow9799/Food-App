@@ -1,6 +1,5 @@
 import React from 'react';
 import { Text, StyleSheet, View, Image } from 'react-native';
-import ResultList from './ResultsLists';
 
 const ResultDetails = ({ result }) =>{
     return (
@@ -27,4 +26,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default ResultList;
+export default ResultDetails;

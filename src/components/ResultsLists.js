@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, StyleSheet, View, FlatList } from 'react-native';
 import ResultDetails from './ResultDetails';
 
-const ResultList = ({ title,results }) => {
+const ResultsLists = ({ title,results }) => {
     return (
         <View style={ styles.container }>
             <Text style={ styles.titleStyle }>{ title }</Text>
@@ -30,4 +30,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default ResultList;
+export default ResultsLists;
